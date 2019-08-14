@@ -20,7 +20,6 @@ import javax.sql.DataSource;
  * @Author: sc
  * @CreateDt: 2019-08-13
  */
-
 @Configuration
 @MapperScan(basePackages = "com.sunchong.demo.mapper.slave", sqlSessionTemplateRef  = "slaveSqlSessionTemplate")
 public class SlaverDruidConfiguration {
@@ -36,7 +35,7 @@ public class SlaverDruidConfiguration {
     public SqlSessionFactory sqlSessionFactory(@Qualifier("slaveDataSource") DataSource dataSource) throws Exception {
         SqlSessionFactoryBean bean = new SqlSessionFactoryBean();
         bean.setDataSource(dataSource);
-        bean.setMapperLocations(new PathMatchingResourcePatternResolver().getResources("classpath*:**/*Mapper.xml"));
+        bean.setMapperLocations(new PathMatchingResourcePatternResolver().getResources("classpath:mapper/slave/*.xml"));
         return bean.getObject();
     }
 

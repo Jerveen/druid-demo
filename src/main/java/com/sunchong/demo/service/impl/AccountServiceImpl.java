@@ -1,6 +1,9 @@
 package com.sunchong.demo.service.impl;
 
+import com.sunchong.demo.mapper.master.AccountMapper;
+import com.sunchong.demo.model.Account;
 import com.sunchong.demo.service.AccountService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
@@ -10,4 +13,12 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class AccountServiceImpl implements AccountService {
+
+    @Autowired
+    private AccountMapper accountMapper;
+
+    @Override
+    public Account getAccountById(Integer id) {
+        return accountMapper.selectByPrimaryKey(id);
+    }
 }
