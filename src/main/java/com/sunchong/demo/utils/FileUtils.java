@@ -9,7 +9,7 @@ import java.io.IOException;
 
 /**
  * @Description: 上传文件工具类
- * @Author: sc
+ * @Author: xyw
  * @CreateDt: 2019-08-13
  */
 @Slf4j

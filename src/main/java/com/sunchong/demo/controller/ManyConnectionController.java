@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @Description: 多数据源配置测试Controller
- * @Author: sc
+ * @Author: xyw
  * @CreateDt: 2019-08-13
  */
 @RestController

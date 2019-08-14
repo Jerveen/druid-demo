@@ -17,7 +17,7 @@ import javax.sql.DataSource;
 
 /**
  * @Description: Mater数据源
- * @Author: sc
+ * @Author: xyw
  * @CreateDt: 2019-08-13
  */
 @Configuration

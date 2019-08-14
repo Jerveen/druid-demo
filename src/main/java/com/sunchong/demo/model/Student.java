@@ -6,7 +6,7 @@ import lombok.NoArgsConstructor;
 
 /**
  * @Description: Student实体类
- * @Author: sc
+ * @Author: xyw
  * @CreateDt: 2019-08-13
  */
 @Data

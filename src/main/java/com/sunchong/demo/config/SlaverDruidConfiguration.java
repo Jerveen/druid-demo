@@ -17,7 +17,7 @@ import javax.sql.DataSource;
 
 /**
  * @Description: Slaver数据源配置
- * @Author: sc
+ * @Author: xyw
  * @CreateDt: 2019-08-13
  */
 @Configuration

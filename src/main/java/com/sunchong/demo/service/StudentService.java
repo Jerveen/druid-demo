@@ -4,7 +4,7 @@ import com.sunchong.demo.model.Student;
 
 /**
  * @Description: 学生Service
- * @Author: sc
+ * @Author: xyw
  * @CreateDt: 2019-08-13
  */
 public interface StudentService {

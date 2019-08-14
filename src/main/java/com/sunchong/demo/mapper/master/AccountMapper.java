@@ -4,7 +4,7 @@ import com.sunchong.demo.model.Account;
 
 /**
  * @Description: Account数据操作层
- * @Author: sc
+ * @Author: xyw
  * @CreateDt: 2019-08-13
  */
 public interface AccountMapper {
